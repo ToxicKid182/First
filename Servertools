@@ -1,0 +1,22 @@
+name: ServerTools
+main: plugin.Main
+version: 1.0 (alpha)
+commands:
+   smithitem:
+     description: Creates a custom item
+     usage: /<command> <item> <amount> <name> <description> 
+   heal:
+     description: heals and feeds the user
+     usage: /<command>
+   feed:
+     description: feeds the user
+     usage: /<command>
+   fly:
+     description: toggles flight
+     usage: /<command>
+   flySpeed:
+     description: changes flight speed
+     usage: /<command>
+   invsee:
+     description: views inventory of a player
+     usage: /<command> <player>
